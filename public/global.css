@@ -1,0 +1,48 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+	margin: 0;
+}
+
+:root {
+  --grey-subtitle: #4a4a4f;
+  --grey-subtitle-1: #696977;
+  --newtab-background-color: #ededf0;
+  --newtab-background-color-1: #f9f9fa;
+  --newtab-text-primary-color: #0c0c0d;
+  --newtab-text-conditional-color: #4a4a4f;
+  --newtab-button-primary-color: #0060df;
+  --newtab-button-secondary-color: #0060df;
+  --newtab-card-background-color: #fff;
+  --newtab-card-shadow: 0 1px 4px 0 rgba(12, 12, 13, 0.4);
+  --tiles-theme-section-border-width: 1px;
+  --welcome-header-text-color: #2b2156;
+  --welcome-header-text-color-1: #20133a;
+  --welcome-card-button-background-color: rgba(12, 12, 13, 0.1);
+  --welcome-card-button-background-hover-color: rgba(12, 12, 13, 0.2);
+  --welcome-card-button-background-active-color: rgba(12, 12, 13, 0.3);
+  --welcome-button-box-shadow-color: #0a84ff;
+  --welcome-button-box-shadow-inset-color: rgba(10, 132, 255, 0.3);
+  --welcome-button-text-color: #fff;
+  --welcome-button-background-hover-color: #003eaa;
+  --welcome-button-background-active-color: #002275;
+  --about-welcome-media-fade: linear-gradient(
+    transparent,
+    transparent 35%,
+    #f9f9fa,
+    #f9f9fa
+  );
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Ubuntu",
+    "Helvetica Neue", sans-serif;
+  font-size: 16px;
+  position: relative;
+  color: var(--newtab-text-primary-color);
+  background-color: var(--newtab-background-color);
+}
