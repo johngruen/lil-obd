@@ -109,7 +109,7 @@
     left: 0;
     bottom: 0;
     right: 0;
-    background: url("/images/shapes-2.svg") no-repeat;
+    background: url("../images/shapes-2.svg") no-repeat;
     background-position: left 0 bottom 0;
     opacity: 0.2;
     background-size: cover;
@@ -177,7 +177,7 @@
           <button on:click={increment}>Start Setup</button>
         </div>
       {:else if panel === 1}
-        <div class="p" in:fly={{ duration: 500, delay: 250, x: 100 }}>
+        <div class="p" in:fade={{ duration: 500, delay: 250 }}>
           <h1>
             Import your passwords, bookmarks, and
             <span class="zap">more</span>
@@ -193,7 +193,7 @@
           <a href="" on:click={increment}>Skip</a>
         </div>
       {:else if panel === 2}
-        <div class="p" in:fly={{ duration: 500, delay: 250, x: 100 }}>
+        <div class="p" in:fade={{ duration: 500, delay: 250 }}>
           <h1>
             Choose a
             <span class="zap">look</span>
@@ -207,7 +207,7 @@
           <a href="" on:click={increment}>Skip</a>
         </div>
       {:else if panel === 3}
-        <div class="p" in:fly={{ duration: 500, delay: 250, x: 100 }}>
+        <div class="p" in:fade={{ duration: 500, delay: 250 }}>
           <h1>
             Demo
             <span class="zap">Over</span>
